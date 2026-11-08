@@ -1,0 +1,98 @@
+{
+  "image_00": {
+    "blockhash": "02000002260017706f486f086fd16fe30fef3fef3fef3ccf3f0f3e473c473c40",
+    "dihedral_digest": "c52bf7d0d9204652",
+    "pdq": "81b889e539c652c9a6cabd074b13c7a80bf48f78d6973883b9ed43c6c1c6b535",
+    "pdq_after_q30": "81b889e539c652c9a6cab907cb13c7a80bf48f78d6973883b96d47c6c1c6b535",
+    "pdq_quality": 87,
+    "phash": "cd5631b15b60d48f"
+  },
+  "image_01": {
+    "blockhash": "0300048008c0082308280810086018fc20f640f84038337d2d710dff0d010c00",
+    "dihedral_digest": "99029e91e603afe2",
+    "pdq": "c972a68d674ec8f5cd4256a1305512ca6762591ebbb5576126cdad1c32bb4756",
+    "pdq_after_q30": "c972a68d674ec8f5cd4214a1305592ca676a591ebbb5576126cdad1c32bb4756",
+    "pdq_quality": 93,
+    "phash": "d235ee9c598354b4"
+  },
+  "image_02": {
+    "blockhash": "0004000406180f000f000f180f000f610601040004020402202221f221c22080",
+    "dihedral_digest": "76ba03678a03c44e",
+    "pdq": "49aab3aaccaa5aa236aa42b6fa8a2cec573bbb6444d3b92472d60d27fecc0255",
+    "pdq_after_q30": "49aab3aaccaa5aa23eaa42b6fa8a2cec573bbb6444d3b92452d60d27fecc0255",
+    "pdq_quality": 65,
+    "phash": "c2d51972b592659b"
+  },
+  "image_03": {
+    "blockhash": "08065c091d093c093c093c093c095d091d89602f90073037707460f010f01030",
+    "dihedral_digest": "ebadd3d7dd7284c8",
+    "pdq": "32475ab116eccd1732e8cd2e3e17875add13162c8d5a7a2550adad5ae90c56f1",
+    "pdq_after_q30": "32475ab116eccd1732e8cd2e3e17874add13162c8d5a7a2550bdad5ae90c56f1",
+    "pdq_quality": 100,
+    "phash": "d3c718ad5ad22d58"
+  },
+  "image_04": {
+    "blockhash": "ffff0fff0fff0f8107800600e600f400f400f606e004e1cce17ee1f0ffe0ffe0",
+    "dihedral_digest": "2ad612a292ed5cb0",
+    "pdq": "b1b1db5ef4f4a5710e0e8c87133362a96c8cc8d3524b250f9b33db4e64e4ecf0",
+    "pdq_after_q30": "b1b1fb5ee4f4a5710e0e8c87133362a96c8cc8d3524b250f9b33db4e64e4ecf0",
+    "pdq_quality": 100,
+    "phash": "ec0793b9e6b06945"
+  },
+  "image_05": {
+    "blockhash": "fffffffffffdf81fe01f001f001f001f001f003f00f100718071c071c061ffe1",
+    "dihedral_digest": "490d4eaa6883a997",
+    "pdq": "f8e900a7de1cc61c87b97e52918928e3398344fefb88263edf5ab72d82495552",
+    "pdq_after_q30": "f8c900a7de1cc71c87b97e52918928e3398344fefb88263edf5ab72d82495552",
+    "pdq_quality": 100,
+    "phash": "b2a5c9daa53e0837"
+  },
+  "image_06": {
+    "blockhash": "ffffffdff9ff891ff90e010f0118011c011c033802780278003c023e01fe019e",
+    "dihedral_digest": "79d45673bf57b231",
+    "pdq": "4e38bd9ee69318c7213392ca5b6cb3243dd31233d98ea63baddec76c586f0003",
+    "pdq_after_q30": "4e38bd9ee69318c7213392ca5b2cb324bdd31233d98ea63bad9ee76c586f0003",
+    "pdq_quality": 76,
+    "phash": "9ce0db9a3c66a0e6"
+  },
+  "image_07": {
+    "blockhash": "ffffff0ffe0ff11ff1c7f007f000f380f1c0f3e0f020f000f000f03ff301e001",
+    "dihedral_digest": "ca000ee8d9b743d0",
+    "pdq": "a79eb5931b3930d99e32d873872769aca6cd434c496fce7230cd8d251cf232d0",
+    "pdq_after_q30": "a79eb1933b3930d99e32d873872769aca6cd434c496fce7230cd8d251cf232d0",
+    "pdq_quality": 100,
+    "phash": "f885a752c9275b98"
+  },
+  "image_08": {
+    "blockhash": "2004605c60187f007f40301e06bf2e7f5f3e3f40bf44bf443fc45f040fb42fa4",
+    "dihedral_digest": "0a6ec008912f5095",
+    "pdq": "f0f0f19171290e3e2cee23ce81ce0d230f7163e11fce98fe643c63c1b88ffc06",
+    "pdq_after_q30": "f0f0f19171290e3e2cee23ce81ce0d230f7163e11fce98fe643c63c1b88ffc06",
+    "pdq_quality": 95,
+    "phash": "c63078431e3f59c7"
+  },
+  "image_09": {
+    "blockhash": "00802046004f404f005f2004447844fd4ffc07fd3f787b007f1030400000d818",
+    "dihedral_digest": "dad39d19b060a831",
+    "pdq": "803fb9d9003e79a402d9bbcb81b99f24e0913ed401ab8fc988f6ff99214b7e5c",
+    "pdq_after_q30": "803fb9d9003e79a402d9bbcb81b99f24e0913ed401ab8fc988f6ff99214b7e5c",
+    "pdq_quality": 38,
+    "phash": "b01d69ccb6c96a95"
+  },
+  "image_10": {
+    "blockhash": "0037000000400f2000622062206027701fa01fe003c00bc00bc000001e031f80",
+    "dihedral_digest": "467d765a6e955dd6",
+    "pdq": "333349d9d6c616d89d8a31316acd2f26c9b9cd6aa50e1a26dab0b6d1b6d2692e",
+    "pdq_after_q30": "333349d9d6c616dc9cc231316add2f26c9b9cd6a250e1a26dab0b6d1b6d2692e",
+    "pdq_quality": 81,
+    "phash": "da3aa5c5863239ab"
+  },
+  "image_11": {
+    "blockhash": "0640118010d020c0200b20432043200300931093107308fb06fb827b823b82ee",
+    "dihedral_digest": "80fe0994f1f14dbe",
+    "pdq": "998cd9db8d2cc6da64cc263346cc23336e74b73339333230c95b91a9aa714ecf",
+    "pdq_after_q30": "998cd9db8d2cc6da64cc262346cc23336e74b73339333230c95b91a9aaf14ecf",
+    "pdq_quality": 100,
+    "phash": "b979c7ca65866426"
+  }
+}

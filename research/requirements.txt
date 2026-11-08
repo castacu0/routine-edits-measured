@@ -1,0 +1,6 @@
+# Research harness dependencies.
+#   python3 -m venv .venv-research
+#   .venv-research/bin/pip install -r research/requirements.txt
+pdqhash==0.2.8   # Meta's reference PDQ via bindings, so results match production
+pillow>=11
+numpy>=2

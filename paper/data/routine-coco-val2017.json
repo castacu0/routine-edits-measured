@@ -1,0 +1,1019 @@
+{
+  "generated": "2026-09-14T18:42:17",
+  "corpus": "/Users/castacu0/datasets/val2017",
+  "corpus_size": 5000,
+  "seed": 1,
+  "algorithms": [
+    "pdq",
+    "phash",
+    "blockhash"
+  ],
+  "residual_paired": {
+    "method": "residual_paired",
+    "images_used": 5000,
+    "images_below_pdq_quality_floor": 9,
+    "threshold_bits": {
+      "pdq": 31,
+      "phash": 8,
+      "blockhash": 31
+    },
+    "n_boot": 2000,
+    "families": {
+      "jpeg": {
+        "levels": [
+          "jpeg:90",
+          "jpeg:70",
+          "jpeg:50",
+          "jpeg:30"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "jpeg:90": 0.0,
+              "jpeg:70": 0.0,
+              "jpeg:50": 0.0,
+              "jpeg:30": 0.0
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "jpeg:90": 0.0,
+              "jpeg:70": 0.0,
+              "jpeg:50": 0.0,
+              "jpeg:30": 0.0
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 13,
+            "residual": 0.00065,
+            "ci_low": 0.0003799180580200702,
+            "ci_high": 0.001111868351211619,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "jpeg:90": 0.00019999999999997797,
+              "jpeg:70": 0.00019999999999997797,
+              "jpeg:50": 0.00039999999999995595,
+              "jpeg:30": 0.0018000000000000238
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 0,
+              "discordant": 0,
+              "residual_a": 0.0,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": 0.0,
+              "method": "none",
+              "chi2": 0.0,
+              "p_value": 1.0,
+              "note": "no discordant pairs; the methods agree on every pair"
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0,
+              "ci_low": 0.0,
+              "ci_high": 0.0,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 13,
+              "b_only": 0,
+              "discordant": 13,
+              "residual_a": 0.0,
+              "residual_b": 0.0006500000000000394,
+              "residual_diff_b_minus_a": 0.0006500000000000394,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.000244140625
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.00065,
+              "ci_low": 0.00025,
+              "ci_high": 0.0011,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 13,
+              "b_only": 0,
+              "discordant": 13,
+              "residual_a": 0.0,
+              "residual_b": 0.0006500000000000394,
+              "residual_diff_b_minus_a": 0.0006500000000000394,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.000244140625
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.00065,
+              "ci_low": 0.00025,
+              "ci_high": 0.0011,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "center_crop": {
+        "levels": [
+          "center_crop:0.95",
+          "center_crop:0.85",
+          "center_crop:0.7",
+          "center_crop:0.5"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 15980,
+            "residual": 0.799,
+            "ci_low": 0.7933888351419601,
+            "ci_high": 0.8044963272964895,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "center_crop:0.95": 0.19799999999999995,
+              "center_crop:0.85": 0.998,
+              "center_crop:0.7": 1.0,
+              "center_crop:0.5": 1.0
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 11808,
+            "residual": 0.5904,
+            "ci_low": 0.5835679524185969,
+            "ci_high": 0.5971973274624595,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "center_crop:0.95": 0.0030000000000000027,
+              "center_crop:0.85": 0.3984,
+              "center_crop:0.7": 0.9616,
+              "center_crop:0.5": 0.9986
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 10642,
+            "residual": 0.5321,
+            "ci_low": 0.5251792730278787,
+            "ci_high": 0.5390083982573194,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "center_crop:0.95": 0.0036000000000000476,
+              "center_crop:0.85": 0.31200000000000006,
+              "center_crop:0.7": 0.8513999999999999,
+              "center_crop:0.5": 0.9614
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 4,
+              "b_only": 4176,
+              "discordant": 4180,
+              "residual_a": 0.7989999999999999,
+              "residual_b": 0.5904,
+              "residual_diff_b_minus_a": -0.2086,
+              "method": "chi2_continuity",
+              "chi2": 4162.01937799043,
+              "p_value": 0.0
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.2086,
+              "ci_low": -0.21310125000000002,
+              "ci_high": -0.20444875,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 13,
+              "b_only": 5351,
+              "discordant": 5364,
+              "residual_a": 0.7989999999999999,
+              "residual_b": 0.5321,
+              "residual_diff_b_minus_a": -0.26689999999999997,
+              "method": "chi2_continuity",
+              "chi2": 5310.135906040268,
+              "p_value": 0.0
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.2669,
+              "ci_low": -0.2727,
+              "ci_high": -0.26135,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 877,
+              "b_only": 2043,
+              "discordant": 2920,
+              "residual_a": 0.5904,
+              "residual_b": 0.5321,
+              "residual_diff_b_minus_a": -0.05829999999999996,
+              "method": "chi2_continuity",
+              "chi2": 464.80308219178085,
+              "p_value": 4.3318088957737594e-103
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.0583,
+              "ci_low": -0.06415,
+              "ci_high": -0.05265,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "resize_roundtrip": {
+        "levels": [
+          "resize_roundtrip:0.8",
+          "resize_roundtrip:0.5",
+          "resize_roundtrip:0.3",
+          "resize_roundtrip:0.15"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 4,
+            "residual": 0.0002,
+            "ci_low": 7.777875605022842e-05,
+            "ci_high": 0.0005141804856319552,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "resize_roundtrip:0.8": 0.0,
+              "resize_roundtrip:0.5": 0.0,
+              "resize_roundtrip:0.3": 0.0,
+              "resize_roundtrip:0.15": 0.0008000000000000229
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "resize_roundtrip:0.8": 0.0,
+              "resize_roundtrip:0.5": 0.0,
+              "resize_roundtrip:0.3": 0.0,
+              "resize_roundtrip:0.15": 0.0
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 2,
+            "residual": 0.0001,
+            "ci_low": 2.7424035272726865e-05,
+            "ci_high": 0.00036457361362067763,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "resize_roundtrip:0.8": 0.0,
+              "resize_roundtrip:0.5": 0.0,
+              "resize_roundtrip:0.3": 0.00019999999999997797,
+              "resize_roundtrip:0.15": 0.00019999999999997797
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 4,
+              "discordant": 4,
+              "residual_a": 0.00019999999999997797,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": -0.00019999999999997797,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.125
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.0002,
+              "ci_low": -0.0004,
+              "ci_high": -5e-05,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 2,
+              "b_only": 4,
+              "discordant": 6,
+              "residual_a": 0.00019999999999997797,
+              "residual_b": 9.999999999998899e-05,
+              "residual_diff_b_minus_a": -9.999999999998899e-05,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.6875
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.0001,
+              "ci_low": -0.00035,
+              "ci_high": 0.0001,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 2,
+              "b_only": 0,
+              "discordant": 2,
+              "residual_a": 0.0,
+              "residual_b": 9.999999999998899e-05,
+              "residual_diff_b_minus_a": 9.999999999998899e-05,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.5
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0001,
+              "ci_low": 0.0,
+              "ci_high": 0.00025,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "gaussian_noise": {
+        "levels": [
+          "gaussian_noise:5",
+          "gaussian_noise:10",
+          "gaussian_noise:20",
+          "gaussian_noise:35"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 4,
+            "residual": 0.0002,
+            "ci_low": 7.777875605022842e-05,
+            "ci_high": 0.0005141804856319552,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "gaussian_noise:5": 0.0,
+              "gaussian_noise:10": 0.0,
+              "gaussian_noise:20": 0.00019999999999997797,
+              "gaussian_noise:35": 0.0006000000000000449
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "gaussian_noise:5": 0.0,
+              "gaussian_noise:10": 0.0,
+              "gaussian_noise:20": 0.0,
+              "gaussian_noise:35": 0.0
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 8,
+            "residual": 0.0004,
+            "ci_low": 0.00020270340374573274,
+            "ci_high": 0.0007891790235140091,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "gaussian_noise:5": 0.00019999999999997797,
+              "gaussian_noise:10": 0.0,
+              "gaussian_noise:20": 0.0008000000000000229,
+              "gaussian_noise:35": 0.0006000000000000449
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 4,
+              "discordant": 4,
+              "residual_a": 0.00019999999999997797,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": -0.00019999999999997797,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.125
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.0002,
+              "ci_low": -0.00045,
+              "ci_high": 0.0,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 8,
+              "b_only": 4,
+              "discordant": 12,
+              "residual_a": 0.00019999999999997797,
+              "residual_b": 0.00039999999999995595,
+              "residual_diff_b_minus_a": 0.00019999999999997797,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.3876953125
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0002,
+              "ci_low": -0.00025,
+              "ci_high": 0.0007012499999999932,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 8,
+              "b_only": 0,
+              "discordant": 8,
+              "residual_a": 0.0,
+              "residual_b": 0.00039999999999995595,
+              "residual_diff_b_minus_a": 0.00039999999999995595,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.0078125
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0004,
+              "ci_low": 5e-05,
+              "ci_high": 0.00085,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "rotation": {
+        "levels": [
+          "rotation:2",
+          "rotation:5",
+          "rotation:10",
+          "rotation:15"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 19440,
+            "residual": 0.972,
+            "ci_low": 0.9696214190572253,
+            "ci_high": 0.9741972989058117,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "rotation:2": 0.888,
+              "rotation:5": 1.0,
+              "rotation:10": 1.0,
+              "rotation:15": 1.0
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 14514,
+            "residual": 0.7257,
+            "ci_low": 0.7194737389113144,
+            "ci_high": 0.7318395760129599,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "rotation:2": 0.09899999999999998,
+              "rotation:5": 0.81,
+              "rotation:10": 0.9942,
+              "rotation:15": 0.9996
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 12926,
+            "residual": 0.6463,
+            "ci_low": 0.6396462336017067,
+            "ci_high": 0.6528975766482771,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "rotation:2": 0.01959999999999995,
+              "rotation:5": 0.605,
+              "rotation:10": 0.967,
+              "rotation:15": 0.9936
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 9,
+              "b_only": 4935,
+              "discordant": 4944,
+              "residual_a": 0.972,
+              "residual_b": 0.7257,
+              "residual_diff_b_minus_a": -0.2463,
+              "method": "chi2_continuity",
+              "chi2": 4906.073017799353,
+              "p_value": 0.0
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.2463,
+              "ci_low": -0.2502,
+              "ci_high": -0.2424,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 4,
+              "b_only": 6518,
+              "discordant": 6522,
+              "residual_a": 0.972,
+              "residual_b": 0.6463,
+              "residual_diff_b_minus_a": -0.3257,
+              "method": "chi2_continuity",
+              "chi2": 6504.0124195032195,
+              "p_value": 0.0
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.3257,
+              "ci_low": -0.33015,
+              "ci_high": -0.32084875,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 564,
+              "b_only": 2152,
+              "discordant": 2716,
+              "residual_a": 0.7257,
+              "residual_b": 0.6463,
+              "residual_diff_b_minus_a": -0.07940000000000003,
+              "method": "chi2_continuity",
+              "chi2": 927.308173784978,
+              "p_value": 1.1361861352003568e-203
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.0794,
+              "ci_low": -0.08470124999999999,
+              "ci_high": -0.0738,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "brightness": {
+        "levels": [
+          "brightness:10",
+          "brightness:-10",
+          "brightness:25",
+          "brightness:-25"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 2,
+            "residual": 0.0001,
+            "ci_low": 2.7424035272726865e-05,
+            "ci_high": 0.00036457361362067763,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "brightness:10": 0.0,
+              "brightness:-10": 0.0,
+              "brightness:25": 0.00019999999999997797,
+              "brightness:-25": 0.00019999999999997797
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 4,
+            "residual": 0.0002,
+            "ci_low": 7.777875605022842e-05,
+            "ci_high": 0.0005141804856319552,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "brightness:10": 0.0,
+              "brightness:-10": 0.0,
+              "brightness:25": 0.00039999999999995595,
+              "brightness:-25": 0.00039999999999995595
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 13,
+            "residual": 0.00065,
+            "ci_low": 0.0003799180580200702,
+            "ci_high": 0.001111868351211619,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "brightness:10": 0.0006000000000000449,
+              "brightness:-10": 0.0,
+              "brightness:25": 0.0010000000000000009,
+              "brightness:-25": 0.0010000000000000009
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 4,
+              "b_only": 2,
+              "discordant": 6,
+              "residual_a": 9.999999999998899e-05,
+              "residual_b": 0.00019999999999997797,
+              "residual_diff_b_minus_a": 9.999999999998899e-05,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.6875
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0001,
+              "ci_low": -0.00015,
+              "ci_high": 0.00035,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 13,
+              "b_only": 2,
+              "discordant": 15,
+              "residual_a": 9.999999999998899e-05,
+              "residual_b": 0.0006500000000000394,
+              "residual_diff_b_minus_a": 0.0005500000000000504,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.00738525390625
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.00055,
+              "ci_low": 0.0001,
+              "ci_high": 0.00105,
+              "excludes_zero": true,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 13,
+              "b_only": 4,
+              "discordant": 17,
+              "residual_a": 0.00019999999999997797,
+              "residual_b": 0.0006500000000000394,
+              "residual_diff_b_minus_a": 0.00045000000000006146,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.049041748046875
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.00045,
+              "ci_low": 0.0,
+              "ci_high": 0.001,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          }
+        }
+      },
+      "blur": {
+        "levels": [
+          "blur:0.5",
+          "blur:1.0",
+          "blur:2.0",
+          "blur:3.5"
+        ],
+        "n_images": 5000,
+        "n_pairs": 20000,
+        "per_algorithm": {
+          "pdq": {
+            "n": 20000,
+            "misses": 3,
+            "residual": 0.00015,
+            "ci_low": 5.101481799495061e-05,
+            "ci_high": 0.0004409636272928434,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "blur:0.5": 0.0,
+              "blur:1.0": 0.0,
+              "blur:2.0": 0.0,
+              "blur:3.5": 0.0006000000000000449
+            }
+          },
+          "phash": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "blur:0.5": 0.0,
+              "blur:1.0": 0.0,
+              "blur:2.0": 0.0,
+              "blur:3.5": 0.0
+            }
+          },
+          "blockhash": {
+            "n": 20000,
+            "misses": 0,
+            "residual": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0001920360561046254,
+            "interval": "wilson",
+            "confidence": 0.95,
+            "per_level": {
+              "blur:0.5": 0.0,
+              "blur:1.0": 0.0,
+              "blur:2.0": 0.0,
+              "blur:3.5": 0.0
+            }
+          }
+        },
+        "pairwise": {
+          "pdq~phash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 3,
+              "discordant": 3,
+              "residual_a": 0.00014999999999998348,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": -0.00014999999999998348,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.25
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.00015,
+              "ci_low": -0.00035,
+              "ci_high": 0.0,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "pdq~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 3,
+              "discordant": 3,
+              "residual_a": 0.00014999999999998348,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": -0.00014999999999998348,
+              "method": "exact_binomial",
+              "chi2": null,
+              "p_value": 0.25
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": -0.00015,
+              "ci_low": -0.00035,
+              "ci_high": 0.0,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          },
+          "phash~blockhash": {
+            "mcnemar": {
+              "n_pairs": 20000,
+              "a_only": 0,
+              "b_only": 0,
+              "discordant": 0,
+              "residual_a": 0.0,
+              "residual_b": 0.0,
+              "residual_diff_b_minus_a": 0.0,
+              "method": "none",
+              "chi2": 0.0,
+              "p_value": 1.0,
+              "note": "no discordant pairs; the methods agree on every pair"
+            },
+            "bootstrap": {
+              "n_images": 5000,
+              "levels_per_image": 4,
+              "n_boot": 2000,
+              "seed": 1,
+              "diff_b_minus_a": 0.0,
+              "ci_low": 0.0,
+              "ci_high": 0.0,
+              "excludes_zero": false,
+              "resampled_by": "image"
+            }
+          }
+        }
+      }
+    },
+    "sample_size": {
+      "center_crop": {
+        "baseline_algorithm": "pdq",
+        "baseline_residual": 0.799,
+        "table": [
+          {
+            "min_detectable_effect": 0.05,
+            "required_n_per_condition": 1098
+          },
+          {
+            "min_detectable_effect": 0.1,
+            "required_n_per_condition": 294
+          },
+          {
+            "min_detectable_effect": 0.15,
+            "required_n_per_condition": 139
+          },
+          {
+            "min_detectable_effect": 0.2,
+            "required_n_per_condition": 82
+          },
+          {
+            "min_detectable_effect": 0.3,
+            "required_n_per_condition": 39
+          }
+        ]
+      },
+      "rotation": {
+        "baseline_algorithm": "pdq",
+        "baseline_residual": 0.972,
+        "table": [
+          {
+            "min_detectable_effect": 0.05,
+            "required_n_per_condition": 314
+          },
+          {
+            "min_detectable_effect": 0.1,
+            "required_n_per_condition": 112
+          },
+          {
+            "min_detectable_effect": 0.15,
+            "required_n_per_condition": 64
+          },
+          {
+            "min_detectable_effect": 0.2,
+            "required_n_per_condition": 43
+          },
+          {
+            "min_detectable_effect": 0.3,
+            "required_n_per_condition": 25
+          }
+        ]
+      }
+    }
+  },
+  "elapsed_seconds": 1451.7
+}

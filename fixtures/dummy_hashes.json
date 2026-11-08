@@ -1,0 +1,108 @@
+{
+  "_README": "SYNTHETIC TEST DATA ONLY. Generated with crypto.randomBytes on 2026-07-25. These are 20 uniformly random 256-bit values formatted as PDQ hex. They correspond to no image, no case, and no person. CLAUDE.md hard rule 3: all tests use this file. Real case data must NEVER be added here, in any form, for any reason, including a redacted or truncated one.",
+  "_generated": "2026-07-25",
+  "_generator": "node crypto.randomBytes(32).toString(\"hex\")",
+  "_count": 20,
+  "hashes": [
+    {
+      "hashPDQ": "de1d58f010fa64dd8bed17dd7b9e5d46cbc24710d8d8b353b4e46202ea14d437",
+      "label": "dummy_test_only",
+      "index": 0
+    },
+    {
+      "hashPDQ": "bbdd75076f60766feb58680684ed75ab1990269a7ef42ebfbd79875758a413c9",
+      "label": "dummy_test_only",
+      "index": 1
+    },
+    {
+      "hashPDQ": "5d5bd5f282a0a3b3a7a5c35480366a6695a5de37aff53367933ac0c05f642ee5",
+      "label": "dummy_test_only",
+      "index": 2
+    },
+    {
+      "hashPDQ": "42a646ba5e4917db1162185967f87153e52eaceccb52eed9f9dee49ccc7cd1dc",
+      "label": "dummy_test_only",
+      "index": 3
+    },
+    {
+      "hashPDQ": "5a60887c3e8e85a2c471c475bfcfc96e75ec115c510d9eb9b8e4baaac1ba7466",
+      "label": "dummy_test_only",
+      "index": 4
+    },
+    {
+      "hashPDQ": "0d8bacc384db85c798d0a8d9e28503a632668d4c77c160bf904e68603c2ca1d5",
+      "label": "dummy_test_only",
+      "index": 5
+    },
+    {
+      "hashPDQ": "179933761d6eae9dba9a3e3a7e4fd81a6d4eb3a673d36294c546e852ffca0c34",
+      "label": "dummy_test_only",
+      "index": 6
+    },
+    {
+      "hashPDQ": "f37b3ac263c20aabfe65737b1d86617e5ec814844a1eacd8f79519a4bd0e7b68",
+      "label": "dummy_test_only",
+      "index": 7
+    },
+    {
+      "hashPDQ": "a4291b3175ee1acfd2de46a5fd941029a76d0a5613ed183d33c6a5c86a0fe5fe",
+      "label": "dummy_test_only",
+      "index": 8
+    },
+    {
+      "hashPDQ": "6c38b204da16ad5acf77f10571d56436a9eb1be1425524cd7add6e144fa5d128",
+      "label": "dummy_test_only",
+      "index": 9
+    },
+    {
+      "hashPDQ": "8d75da4114cbe35f8b935ed27db9d8b703f4f55c79af08eef3d9898fe19826c6",
+      "label": "dummy_test_only",
+      "index": 10
+    },
+    {
+      "hashPDQ": "f741ccafa2f8e7df156b79137fe99bc8cad5f7bb36c0dbd7065077ed7151656d",
+      "label": "dummy_test_only",
+      "index": 11
+    },
+    {
+      "hashPDQ": "a381e0fc110e91a58aee7cb1b4ca4ef72e2915d0410aaf636d48b38950bba30d",
+      "label": "dummy_test_only",
+      "index": 12
+    },
+    {
+      "hashPDQ": "9b4afd05835e4b2013c7fb301efb2d5efe5b271b89f192e1704d453b76fcd69a",
+      "label": "dummy_test_only",
+      "index": 13
+    },
+    {
+      "hashPDQ": "9047041115899c7b36d56a828c4f7dcd51a7fd857899e6089cbf0b9086136606",
+      "label": "dummy_test_only",
+      "index": 14
+    },
+    {
+      "hashPDQ": "ef116a4737bd77b1d79c51e887881fdeee9c73ece0b7c44075e27609704085ea",
+      "label": "dummy_test_only",
+      "index": 15
+    },
+    {
+      "hashPDQ": "de6b375692511751f5695945a061a6cd3af489989f768aae74a58c852a49c7e5",
+      "label": "dummy_test_only",
+      "index": 16
+    },
+    {
+      "hashPDQ": "02101ea254d7d0bbe5f73fb96bba1aa1ed9d48fced269039077a1332bdf617e3",
+      "label": "dummy_test_only",
+      "index": 17
+    },
+    {
+      "hashPDQ": "4beb5934362ed1523df3c3085fde5ab00570ac49cdc2b968a6783d20dda7cc0c",
+      "label": "dummy_test_only",
+      "index": 18
+    },
+    {
+      "hashPDQ": "7b3560598fd7fdb8d9da92fb157c4482e44a39002fd9f296125bfaf0a3cac000",
+      "label": "dummy_test_only",
+      "index": 19
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 559" width="940" height="559" role="img" aria-label="Image and video generator releases, July to November 2026, by region and openness">
+  <title>Image and video generator releases, July to November 2026, by region and openness</title>
+
+  <style>
+    .bg   { fill: #FFFFFF; }
+    .ink  { fill: #0E1A1D; }
+    .ink2 { fill: #2F4046; }
+    .ink3 { fill: #61757B; }
+    .acc  { fill: #0A5F6E; }
+    .alert{ fill: #96271B; }
+    .rule { stroke: #C8D4D7; }
+    .accs { stroke: #0A5F6E; }
+    .alerts{ stroke: #96271B; }
+    .ink3s{ stroke: #61757B; }
+    .accf { fill: #0A5F6E; }
+    .softf{ fill: #E4F1F3; }
+    text  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .ttl  { font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .bg   { fill: #0B1215; }
+      .ink  { fill: #E8EFF0; }
+      .ink2 { fill: #A7BCC1; }
+      .ink3 { fill: #72898F; }
+      .acc  { fill: #45CFE3; }
+      .alert{ fill: #FF8A75; }
+      .rule { stroke: #22343A; }
+      .accs { stroke: #45CFE3; }
+      .alerts{ stroke: #FF8A75; }
+      .ink3s{ stroke: #72898F; }
+      .accf { fill: #45CFE3; }
+      .softf{ fill: #12303A; }
+    }
+  </style>
+
+  <rect class="bg" width="940" height="559"/>
+<text x="24" y="34" class="ink" font-size="19" text-anchor="start" font-weight="700">Image and video generators, July to November 2026: what shipped, and whether the weights did</text>
+<text x="24" y="54" class="ink3" font-size="11.5" text-anchor="start">One row per dated release, checked against its model card or announcement · filled = open weights, hollow = hosted only</text>
+<text x="24" y="70" class="ink3" font-size="11.5" text-anchor="start">Shaded band: the two weeks the preprint discusses (2026-10-25 to 2026-11-08) · colour: China, United States, Europe</text>
+<rect x="831.6" y="100" width="61.0" height="373" class="softf"/>
+<line x1="461.3" y1="100" x2="461.3" y2="473" class="rule" stroke-width="1"/>
+<text x="465.2782608695652" y="96" class="ink3" font-size="10.5" text-anchor="start">Aug 2026</text>
+<line x1="596.3" y1="100" x2="596.3" y2="473" class="rule" stroke-width="1"/>
+<text x="600.3304347826087" y="96" class="ink3" font-size="10.5" text-anchor="start">Sep 2026</text>
+<line x1="727.0" y1="100" x2="727.0" y2="473" class="rule" stroke-width="1"/>
+<text x="731.0260869565218" y="96" class="ink3" font-size="10.5" text-anchor="start">Oct 2026</text>
+<line x1="862.1" y1="100" x2="862.1" y2="473" class="rule" stroke-width="1"/>
+<text x="866.0782608695652" y="96" class="ink3" font-size="10.5" text-anchor="start">Nov 2026</text>
+<text x="24" y="96" class="ink3" font-size="10.5" text-anchor="start">date · developer · model</text>
+<line x1="24" y1="131.0" x2="910" y2="131.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="125.5" class="ink" font-size="10.2" text-anchor="start">08-02  MiniMax: MiniMax H3</text>
+<circle cx="465.6" cy="121.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="475.6347826086957" y="125.5" class="ink3" font-size="9.6" text-anchor="start">MiniMax H3 Community License</text>
+<line x1="24" y1="150.0" x2="910" y2="150.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="144.5" class="ink" font-size="10.2" text-anchor="start">08-24  Alibaba Cloud: Wan3.0</text>
+<circle cx="561.5" cy="140.5" r="5.5" class="bg alerts" stroke-width="2"/>
+<text x="571.4782608695652" y="144.5" class="ink3" font-size="9.6" text-anchor="start">API only</text>
+<line x1="24" y1="169.0" x2="910" y2="169.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="163.5" class="ink" font-size="10.2" text-anchor="start">09-20  Alibaba: Qwen-Image-2.1</text>
+<circle cx="679.1" cy="159.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="689.104347826087" y="163.5" class="ink3" font-size="9.6" text-anchor="start">Qwen Research License</text>
+<line x1="24" y1="188.0" x2="910" y2="188.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="182.5" class="ink" font-size="10.2" text-anchor="start">09-24  OpenAI: Sora API discontinued</text>
+<circle cx="696.5" cy="178.5" r="5.5" class="bg accs" stroke-width="2"/>
+<text x="706.5304347826087" y="182.5" class="ink3" font-size="9.6" text-anchor="start">closed, withdrawn</text>
+<line x1="24" y1="207.0" x2="910" y2="207.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="201.5" class="ink" font-size="10.2" text-anchor="start">10-06  Google: Nano Banana 2.1</text>
+<circle cx="748.8" cy="197.5" r="5.5" class="bg accs" stroke-width="2"/>
+<text x="758.8086956521739" y="201.5" class="ink3" font-size="9.6" text-anchor="start">API only</text>
+<line x1="24" y1="226.0" x2="910" y2="226.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="220.5" class="ink" font-size="10.2" text-anchor="start">10-09  Alibaba: Qwen-Image-2.1-Turbo</text>
+<circle cx="761.9" cy="216.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="751.8782608695652" y="220.5" class="ink3" font-size="9.6" text-anchor="end">Qwen Research License</text>
+<line x1="24" y1="245.0" x2="910" y2="245.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="239.5" class="ink" font-size="10.2" text-anchor="start">10-11  OpenMOSS: MOSS-Image-Base / MOSS-Image-SFT</text>
+<circle cx="770.6" cy="235.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="760.591304347826" y="239.5" class="ink3" font-size="9.6" text-anchor="end">Apache-2.0</text>
+<line x1="24" y1="264.0" x2="910" y2="264.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="258.5" class="ink" font-size="10.2" text-anchor="start">10-15  Black Forest Labs: FLUX 3 Image Klein</text>
+<circle cx="788.0" cy="254.5" r="5.5" class="ink3 ink3s" stroke-width="2"/>
+<text x="778.0173913043478" y="258.5" class="ink3" font-size="9.6" text-anchor="end">FLUX Kommunity License</text>
+<line x1="24" y1="283.0" x2="910" y2="283.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="277.5" class="ink" font-size="10.2" text-anchor="start">10-15  Kuaishou: Kling 4.0 fully available</text>
+<circle cx="788.0" cy="273.5" r="5.5" class="bg alerts" stroke-width="2"/>
+<text x="778.0173913043478" y="277.5" class="ink3" font-size="9.6" text-anchor="end">closed</text>
+<line x1="24" y1="302.0" x2="910" y2="302.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="296.5" class="ink" font-size="10.2" text-anchor="start">10-19  NVIDIA: Cosmos3-H-Dreams</text>
+<circle cx="805.4" cy="292.5" r="5.5" class="accf accs" stroke-width="2"/>
+<text x="795.4434782608696" y="296.5" class="ink3" font-size="9.6" text-anchor="end">NVIDIA Open Model License</text>
+<line x1="24" y1="321.0" x2="910" y2="321.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="315.5" class="ink" font-size="10.2" text-anchor="start">10-21  Tencent: Hy-Nomas</text>
+<circle cx="814.2" cy="311.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="804.1565217391304" y="315.5" class="ink3" font-size="9.6" text-anchor="end">Apache-2.0</text>
+<line x1="24" y1="340.0" x2="910" y2="340.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="334.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">10-27  Pruna AI: P-H3-Image</text>
+<circle cx="840.3" cy="330.5" r="5.5" class="ink3 ink3s" stroke-width="2"/>
+<text x="830.295652173913" y="334.5" class="ink3" font-size="9.6" text-anchor="end">MiniMax H3 Community License</text>
+<line x1="24" y1="359.0" x2="910" y2="359.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="353.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">10-29  Pika Labs: Pika-H3-Flex</text>
+<circle cx="849.0" cy="349.5" r="5.5" class="accf accs" stroke-width="2"/>
+<text x="839.0086956521739" y="353.5" class="ink3" font-size="9.6" text-anchor="end">MiniMax H3 Community License</text>
+<line x1="24" y1="378.0" x2="910" y2="378.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="372.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">10-29  LightX2V: MiniMax-H3 prompt rewriters</text>
+<circle cx="849.0" cy="368.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="839.0086956521739" y="372.5" class="ink3" font-size="9.6" text-anchor="end">see repository</text>
+<line x1="24" y1="397.0" x2="910" y2="397.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="391.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">11-02  LightX2V: Qwen-Image-2.1-Lightning-v2-RL</text>
+<circle cx="866.4" cy="387.5" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="856.4347826086956" y="391.5" class="ink3" font-size="9.6" text-anchor="end">Qwen Research License</text>
+<line x1="24" y1="416.0" x2="910" y2="416.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="410.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">11-04  OpenAI: GPT-Image-2.6 Sunburst and Flare</text>
+<circle cx="875.1" cy="406.5" r="5.5" class="bg accs" stroke-width="2"/>
+<text x="865.1478260869565" y="410.5" class="ink3" font-size="9.6" text-anchor="end">API only</text>
+<line x1="24" y1="435.0" x2="910" y2="435.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="429.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">11-04  Kuaishou: Kling 4.0 Flash available to everyone, website and API</text>
+<circle cx="875.1" cy="425.5" r="5.5" class="bg alerts" stroke-width="2"/>
+<text x="865.1478260869565" y="429.5" class="ink3" font-size="9.6" text-anchor="end">closed</text>
+<line x1="24" y1="454.0" x2="910" y2="454.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="448.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">11-05  Google: Gemini Omni 1.2 Flash GA</text>
+<circle cx="879.5" cy="444.5" r="5.5" class="bg accs" stroke-width="2"/>
+<text x="869.504347826087" y="448.5" class="ink3" font-size="9.6" text-anchor="end">API only</text>
+<line x1="24" y1="473.0" x2="910" y2="473.0" class="rule" stroke-width="0.5"/>
+<text x="24" y="467.5" class="ink" font-size="10.2" text-anchor="start" font-weight="600">11-07  community: p-h3-image-pdmd-2step</text>
+<circle cx="888.2" cy="463.5" r="5.5" class="ink3 ink3s" stroke-width="2"/>
+<text x="878.2173913043478" y="467.5" class="ink3" font-size="9.6" text-anchor="end">inherited</text>
+<circle cx="30" cy="501" r="5.5" class="alert alerts" stroke-width="2"/>
+<text x="42" y="505" class="ink2" font-size="10.5" text-anchor="start">China, open weights</text>
+<circle cx="180" cy="501" r="5.5" class="accf accs" stroke-width="2"/>
+<text x="192" y="505" class="ink2" font-size="10.5" text-anchor="start">United States, open weights</text>
+<circle cx="380" cy="501" r="5.5" class="ink3 ink3s" stroke-width="2"/>
+<text x="392" y="505" class="ink2" font-size="10.5" text-anchor="start">Europe or community, open weights</text>
+<circle cx="620" cy="501" r="5.5" class="bg alerts" stroke-width="2"/>
+<text x="632" y="505" class="ink2" font-size="10.5" text-anchor="start">hosted only (API or app)</text>
+<text x="24" y="545" class="ink3 mono" font-size="10" text-anchor="start">paper/plot_frontier.py · sources and access dates per row in paper/data/frontier-models-2026.json · Hugging Face dates are repository creation dates</text>
+</svg>
